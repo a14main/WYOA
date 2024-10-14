@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+Log In
+{% endblock %}
+
+{% block main %}
+    <div class="center">
+        <form method="post">
+            <h2>Register</h2>
+            <label for="username">Username:
+                <input id="username" name="username" type="text" autofocus autocomplete="on" placeholder="username" required/>
+            </label>
+            <label for="password">Password:
+                <input id="password" name="password" type="password" autocomplete="on" placeholder="password" required/>
+            </label>
+            <label for="confirmation">Confirm Password:
+                <input id="confirmation" name="confirmation" type="password" autocomplete="off" placeholder="confirm password" required/>
+            </label>
+            <button type="submit">Log In</button>
+        </form>
+    </div>
+{% endblock %}
