@@ -79,7 +79,15 @@ form {
     border: 1px solid;
 }
 
-input, button {
+form.editor {
+    align-items: flex-start;
+}
+
+form.editor textarea {
+   
+}
+
+input, button, textarea {
     font: inherit;
     background-color: inherit;
     color: inherit;
